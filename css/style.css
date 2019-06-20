@@ -7,20 +7,18 @@ body {
 }
 
 a {
-    color: darkred;
+    color: #801;
     text-decoration: none;
 }
 
 /* HEADER */
 
 header {
-    background: black;
-    color: white;
     padding: 1em 2em;
 }
 
 header a {
-    color: white;
+
 }
 
 header {
@@ -90,7 +88,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: darkred;
+    background: #801;
     min-height: 50vh;
     color: white;
 }
@@ -107,6 +105,12 @@ section {
     margin: 1em auto;
 }
 
+.page-home .hero {
+    background-image: url('https://picsum.photos/id/1080/1600/800');
+    background-size: cover;
+    background-position: right bottom;
+}
+
 /* Lists */
 .lists {
     max-width: 1000px;
@@ -120,4 +124,23 @@ section {
     .lists {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+/* SUB PAGES */
+
+.page-sub .hero {
+    min-height: 30vh;
+}
+
+/* BLOG ARCHIVES */
+
+.blog-archives {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
 }
