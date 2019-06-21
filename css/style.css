@@ -91,7 +91,9 @@ section {
 
 
 .hero h2 {
-    font-size: 6em;
+    font-family: 'Knewave', cursive;
+    font-weight: 400;
+    font-size: 4em;
     text-transform: uppercase;
     margin: 0 auto;
 }
