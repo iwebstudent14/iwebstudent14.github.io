@@ -142,3 +142,11 @@ section {
     padding: 2em;
     margin: 2em 0;
 }
+
+.ui-designs {
+    text-align: center;
+}
+
+.ui-designs img {
+    max-width: 200px;
+}
